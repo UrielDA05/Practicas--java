@@ -12,7 +12,7 @@ public class Area_Volumen {
         short h = 0;
         short r = 0;
         h=Short.parseShort(JOptionPane.showInputDialog("Ingresa el valor de la altura"));
-        r=Short.parseShort(JOptionPane.showInputDialog("Ingresa el valor del radio"));
+        r=Short.parseShort(JOptionPane.showInputDialog("Ingresa el valor del radio de la base"));
         double a;
         double v;
         v =Math.PI*(r*r)*(h);
