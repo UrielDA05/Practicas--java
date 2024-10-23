@@ -3,10 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 import javax.swing.JOptionPane;
-/**
- *
- * @author uriel
- */
 public class ValoresDistintos {
     public static void main (String args []){
         short a;

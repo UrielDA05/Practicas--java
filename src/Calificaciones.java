@@ -8,9 +8,9 @@ import javax.swing.JOptionPane;
  * @author uriel
  */
 public class Calificaciones {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         byte n;
-        n=Byte.parseByte(JOptionPane.showInputDialog("Ingrese tu nota"));
+        n=Byte.parseByte(JOptionPane.showInputDialog("Ingrese tu nota del 1 al 20"));
         if (n==19 | n==20){
             System.out.println("Tu calificacion es una A");
             JOptionPane.showMessageDialog(null,"Tu calificacion es una A");
