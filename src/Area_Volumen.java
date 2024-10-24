@@ -17,12 +17,8 @@ public class Area_Volumen {
         double v;
         v =Math.PI*(r*r)*(h);
         a =Math.PI*2*(r)*(h)+Math.PI*2*(r*r);  
-        System.out.println(" El volumen del cilindro es: " +v +"cm3");
         JOptionPane.showMessageDialog(null, " El volumen del cilindro es: " +v +"cm3");
-        System.out.println(" El area del cilindro es: " +a +"cm2");
         JOptionPane.showMessageDialog(null, " El area del cilindro es: " +a +"cm2");
-           //62.83
-           //
     }
     
     

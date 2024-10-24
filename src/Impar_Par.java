@@ -12,14 +12,9 @@ public class Impar_Par {
         short n;
         n=Short.parseShort(JOptionPane.showInputDialog(null, "Ingrese un numero"));
         if (n%2==0){
-            System.out.println(n+" Es par");
             JOptionPane.showMessageDialog(null, n+" Es par");
         }else{
-            System.out.println(n+" Es impar");
             JOptionPane.showMessageDialog(null, n+" Es impar");
-            
-            
-            
         }
     
     }

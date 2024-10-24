@@ -11,7 +11,6 @@ public class Hipotenusa {
         cat2=Short.parseShort(JOptionPane.showInputDialog("Ingrese el valor del segundo cateto"));
         double hip;
         hip=Math.sqrt(Math.pow(cat1,2)+Math.pow(cat2,2));
-        System.out.println(hip+" Es la medida de la hipotenusa");
         JOptionPane.showMessageDialog(null, hip+" Es la medida de la hipotenusa");
         
         
