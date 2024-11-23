@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class Area_Volumen {
     public static void main (String args[]){
-        short h = 1;
+        short h = 0;
         short r = 0;
         h=Short.parseShort(JOptionPane.showInputDialog("Ingresa el valor de la altura"));
         r=Short.parseShort(JOptionPane.showInputDialog("Ingresa el valor del radio de la base"));
